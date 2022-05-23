@@ -11,18 +11,21 @@
   </header>
   <main>
     <RobotBuilder />
+    <!-- <TheSearch/> -->
   </main>
 </template>
 
 <script>
 // import HomePage from './home/HomePage.vue';
 import RobotBuilder from './build/RobotBuilder.vue';
+// import TheSearch from './search/TheSearch.vue';
 
 export default {
   name: 'App',
   components: {
     // HomePage,
     RobotBuilder,
+    // TheSearch,
   },
 };
 </script>
